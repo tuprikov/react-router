@@ -1,6 +1,16 @@
+import { Helmet } from 'react-helmet'
+
 const Home = () => {
     return (
-        <div className="flex container mx-auto py-8 px-4"><h1 className="text-3xl font-bold">Home Page</h1></div>
+        <>
+            <Helmet>
+                <title>Home</title>
+                <meta name="description" content="Welcome to our home page!" />
+            </Helmet>
+            <div className="container mx-auto flex px-4 py-8">
+                <h1 className="text-3xl font-bold">Home Page</h1>
+            </div>
+        </>
     )
 }
 
