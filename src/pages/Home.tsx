@@ -1,7 +1,7 @@
 const Home = () => {
-  return (
-    <div>Home</div>
-  )
+    return (
+        <div className="flex container mx-auto py-8 px-4"><h1 className="text-3xl font-bold">Home Page</h1></div>
+    )
 }
 
 export default Home
