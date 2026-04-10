@@ -14,6 +14,14 @@ const router = createBrowserRouter([
         )
     },
     {
+        path: '/blog',
+        element: (
+            <Layout>
+                <Blog />
+            </Layout>
+        )
+    },
+    {
         path: '/blog/:category',
         element: (
             <Layout>

@@ -17,6 +17,16 @@ const Nav = () => {
                     </li>
                     <li>
                         <NavLink
+                            to="/blog"
+                            className={({ isActive }) =>
+                                `hover:text-blue-500 ${isActive ? 'font-bold text-blue-700' : 'text-gray-500'}`
+                            }
+                        >
+                            Blog
+                        </NavLink>
+                    </li>
+                    <li>
+                        <NavLink
                             to="/about"
                             className={({ isActive }) =>
                                 `hover:text-blue-500 ${isActive ? 'font-bold text-blue-700' : 'text-gray-500'}`
